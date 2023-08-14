@@ -11,8 +11,8 @@ from sys import platform
 import requests
 from Crypto.Cipher import ARC4
 
-if platform != "win32":
-    import readline
+# if platform != "win32":
+#     import readline
 
 
 class XiaomiCloudConnector:
